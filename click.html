@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("#a").click(function(){
+        alert("Button A is single clicked");
+      });
+
+      $("#b").dblclick(function(){
+        alert("Button B is double clicked");
+      });
+    });
+  </script>
+</head>
+<body>
+  <button id="a">Single Click</button>
+  <button id="b">Double Click</button>
+</body>
+</html>
